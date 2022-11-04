@@ -163,6 +163,7 @@ h3{
 }
 option{
     color: #353535;
+    font-family: 'Montserrat';
 }
 .section2__filter__btn{
     display: flex;
