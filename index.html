@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="photo/logo.png" alt="Логотип" class="header__logo">
+        <ul class="header__list">
+            <li><a href="#" class="header__link">Каталог</a></li>
+            <li><a href="#" class="header__link">Новости</a></li>
+            <li><a href="#" class="header__link">Контактная информация</a></li>
+            <li><a href="#" class="header__link">Погода</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <section class="section1">
+            <h1>Ваше путешествие начинается здесь</h1>
+            <div class="form">
+                <img src="photo/free-icon-search-4024513.png" alt="" class="form__icon">
+                <input type="search" placeholder="Куда отправимся?" class="form__input">
+                <button class="form__btn">Поиск</button>
+            </div>
+        </section>
+        <section class="section2">
+            <h2>Каталог</h2>
+            <div class="section2__content">
+                <div class="section2__filter">
+                    <h3 class="section2__filter__title">Фильтр</h3>
+                    <div class="section2__filter__checkbox">
+                        <input type="checkbox" name="hot" class="section2__filter__check">
+                        <label for="hot" class="section2__filter__label">Горящие туры</label>
+                    </div>
+                    <p class="section2__filter__desc">Страна</p>
+                    <select name="select" id="select" class="section2__filter__select">
+                        <option value="Германия" class="section2__filter__item">Германия</option>
+                        <option value="Франция" class="section2__filter__item">Франция</option>
+                        <option value="Испания" class="section2__filter__item">Испания</option>
+                    </select>
+                    <p class="section2__filter__desc">Тематика</p>
+                    <select name="select" id="select" class="section2__filter__select">
+                        <option value="Приключения" class="section2__filter__item">Приключения</option>
+                        <option value="Романтика" class="section2__filter__item">Романтика</option>
+                        <option value="Семейный" class="section2__filter__item">Семейный</option>
+                    </select>
+                    <p class="section2__filter__desc">Цена</p>
+                    <div class="section2__filter__btn">
+                        <p class="section2__filter__desc">Выбрать...</p>
+                        <img src="photo/arrow-down-sign-to-navigate 1.png" alt="" class="section2__filter__img">
+                    </div>
+                    <p class="section2__filter__desc">Дата</p>
+                    <div class="section2__filter__btn">
+                        <p class="section2__filter__desc">Выбрать...</p>
+                        <img src="photo/arrow-down-sign-to-navigate 1.png" alt="" class="section2__filter__img">
+                    </div>
+                    <p class="section2__filter__desc">Длительность</p>
+                    <select name="select" id="select" class="section2__filter__select">
+                        <option value="1-3 дня" class="section2__filter__item">1-3 дня</option>
+                        <option value="1 Неделя" class="section2__filter__item">1 Неделя</option>
+                        <option value="> 1 Недели" class="section2__filter__item">> 1 Недели</option>
+                    </select>
+                    <p class="section2__filter__desc">Дети</p>
+                    <div class="section2__filter__btn">
+                        <p class="section2__filter__desc">Выбрать...</p>
+                        <img src="photo/arrow-down-sign-to-navigate 1.png" alt="" class="section2__filter__img">
+                    </div>
+                </div>
+                <div class="section2__cards">
+                    <div class="section__card">
+                        <img src="photo/image 2.png" alt="" class="section__card__img">
+                        <h3 class="section__card__title">Франция</h3>
+                        <p class="section__card__desc">Посетите романтические места столицы любви</p>
+                        <div class="section__card__bot">
+                            <p class="section__card__price">130 000 ₽</p>
+                            <button class="section__card__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="section__card">
+                        <img src="photo/image 3.png" alt="" class="section__card__img">
+                        <h3 class="section__card__title">Италия</h3>
+                        <p class="section__card__desc">Посетите родину пиццы
+                            и насладитесь итальянской пастой</p>
+                        <div class="section__card__bot">
+                            <p class="section__card__price">80 000 ₽</p>
+                            <button class="section__card__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="section__card">
+                        <img src="photo/image 4.png" alt="" class="section__card__img">
+                        <div class="section__card__hotter">
+                            <h3 class="section__card__title__hot">Испания</h3>
+                            <img src="photo/trending-topic 1.png" alt="" class="section__card__hot">
+                        </div>
+                        <p class="section__card__desc">Погрейтесь на солнце испанских пляжей</p>
+                        <div class="section__card__bot">
+                            <p class="section__card__price">125 000 ₽</p>
+                            <button class="section__card__btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <h2>Новости</h2>
+            <div class="section3__cards">
+                <div class="section3__card">
+                    <img src="photo/qwe.png" alt="" class="section3__img">
+                    <div class="section3__text">
+                        <h3 class="section3__title">Новый пляжный сезон</h3>
+                        <p class="section3__desc">Насладитесь горячим песком<br>
+                            и освежающим морем по сниженным ценам</p>
+                    </div>
+                </div>
+                <div class="section3__card">
+                    <img src="photo/rty.png" alt="" class="section3__img">
+                    <div class="section3__text">
+                        <h3 class="section3__title">Топ 10 лайфхаков</h3>
+                        <p class="section3__desc">Не удается упаковать чемодан? Попробуйте эти 10 методов компановки</p>
+                    </div>
+                </div>
+                <div class="section3__card">
+                    <img src="photo/uio.png" alt="" class="section3__img">
+                    <div class="section3__text">
+                        <h3 class="section3__title">Новое направление!</h3>
+                        <p class="section3__desc">Очутитесь на горных просторах Австрии
+                            и оцените незабываемые виды</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <h2>Контактная информация</h2>
+            <div class="section4__content">
+                <img src="photo/map.png" alt="" class="section4__map">
+                <div class="section4__text">
+                    <p class="section4__title">Адрес:</p>
+                    <p class="section4__desc">Беговая улица, 17к1, Москва</p>
+                    <p class="section4__title">Телефон:</p>
+                    <p class="section4__desc">+7(980) 472 10-39</p>
+                    <p class="section4__title">Почта:</p>
+                    <p class="section4__desc">euro-tour@mail.ru</p>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <h2>О нас</h2>
+            <div class="section5__content">
+                <img src="photo/about.png" alt="" class="section5__img">
+                <div class="section5__text">
+                    <p class="section5__desc">"Европа-Тур" - туристическое агентство, которое специализируется на организации отдыха в Европе граждан России. "Европа-Тур" предлагает самые низкие цены.</p>
+                    <div class="section5__bullits">
+                        <div class="section5__bullit">
+                            <div class="section5__box">
+                                <p class="section5__number">30 К</p>
+                            </div>
+                        <p class="section5__bullit__desc">Туров продаем ежегодно</p>
+                        </div>
+                        <div class="section5__bullit">
+                            <div class="section5__box">
+                                <p class="section5__number">15</p>
+                            </div>
+                            <p class="section5__bullit__desc">Стран для отдыха</p>
+                        </div>
+                        <div class="section5__bullit">
+                            <div class="section5__box">
+                                <p class="section5__number">13</p>
+                            </div>
+                        <p class="section5__bullit__desc">Место на мировом рынке</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+
+        </section>
+        <footer class="footer">
+            <img src="photo/logo.png" alt="Логотип" class="header__logo">
+            <p class="footer__desc">Политика конфиденциальности</p>
+        </footer>
+    </main>
+</body>
+</html>
